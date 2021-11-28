@@ -1,4 +1,4 @@
-class CCost < Formula
+class Ccost < Formula
   desc "Coinbase Coin Cost Match"
   homepage "https://github.com/helenamerk/ccost"
   url "https://github.com/helenamerk/homebrew-ccost/releases/download/v1.0.0/ccost-macos-x64.tar.gz"
