@@ -1,0 +1,30 @@
+{
+  "name": "ccost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "hello": "./build/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "pkg . --targets node14-macos-x64 --output hello"
+  },
+  "pkg": {
+    "scripts": "build/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "@types/request": "^2.48.7",
+    "@types/yargs": "^17.0.7",
+    "pkg": "^5.4.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "request": "^2.88.2",
+    "yargs": "^17.2.1"
+  }
+}
