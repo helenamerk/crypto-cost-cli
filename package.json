@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "hello": "./build/cli.js"
+    "ccost": "./build/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "pkg . --targets node14-macos-x64 --output hello"
+    "package": "pkg . --targets node14-macos-x64 --output ccost"
   },
   "pkg": {
     "scripts": "build/**/*.js"
